@@ -4,9 +4,22 @@ This project aims to build a small microservice for Library case study.
 
 ## Installation
 
-Download the code from the location below:
+Run the following commands:
 
-## Getting the system up and running
+``` 
+git clone git@github.com:bhatshriram/Library-Microservice.git
+cd books
+npm install
+cd..
+cd customers
+npm install
+cd..
+cd orders
+npm install
+cd..
+```
+
+## Services
 
 There are three backend services named as books service, customers service and orders service.
 
