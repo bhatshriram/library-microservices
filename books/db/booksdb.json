@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "title": "JavaScript",
+        "author": "David Flanagan",
+        "pages": 1000,
+        "publisher": "O'Reilly Media"
+    },
+    {
+        "id": 2,
+        "title": "Python for AI",
+        "author": "Steve Nouri",
+        "pages": 250,
+        "publisher": "Steve Nouri"
+    }
+]

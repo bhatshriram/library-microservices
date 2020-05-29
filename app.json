@@ -1,0 +1,19 @@
+{
+    "apps": [
+        {
+            "name": "books",
+            "script": "books/books.js",
+            "watch": "books/books.js"
+        },
+        {
+            "name": "customers",
+            "script": "customers/customers.js",
+            "watch": "customers/customers.js"
+        },
+        {
+            "name": "orders",
+            "script": "orders/orders.js",
+            "watch": "orders/orders.js"
+        }
+    ]
+}
