@@ -92,3 +92,21 @@ Use Get and Post with these services to know how this works.
     "initialDate": "2020-03-20",
     "deliveryDate": "2020-05-28"
 ```
+
+## Dockerization
+
+We can run each service in seperate docker containers using below commands:
+
+```
+cd books
+docker build -t books .
+docker run -dp 4545:4545 books
+
+cd customers
+docker build -t customers .
+docker run -dp 4546:4546 customers
+
+cd orders
+docker build -t orders .
+docker run -dp 4547:4547 orders
+```
